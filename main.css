@@ -1,0 +1,100 @@
+*{margin:0; padding: 0;}
+@font-face {
+    font-family: 'GongGothicMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* nav */
+.nav{
+    float: right;
+    margin-top: 55px;
+    margin-right: 45px;
+}
+.nav_1, .nav_2, .nav_3{
+    text-decoration: none;
+    font-family: 'NanumSquare', sans-serif !important;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 45px;
+}
+.nav_icon_menu{
+    float: right;
+    margin-top: 55px;
+    margin-right: 150px;
+}
+.nav_icon_img{
+    width: 25px;
+    height: 25px;
+}
+/* about */
+.about_img{
+    position: relative;
+    width: 1920px;
+    height: 800px;
+}
+.about_t1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1450%);
+}
+.about_t2{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 3600%);
+}
+.about_img_make{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-100%, 350%);
+    padding-right: 25px;
+}
+.about_img_brush{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 350%);
+}
+/* TEST */
+.test_t1{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 250px;
+}
+.test_t2{
+    color:black;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    padding-top: 25px;
+}
+.test_t3{
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.text_btn{
+    width: 240px;
+    height: 130px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 50px;
+}
