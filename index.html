@@ -9,6 +9,11 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
     <!--main css-->
     <link rel="stylesheet" href="main.css">
+    <!--라이브러리-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--JS-->
+    <script src="main.js" defer></script>
     <!--background-->
     <style>
         body{
@@ -30,15 +35,15 @@
         </div>
         <div class = "nav">
             <a href="#" style="text-decoration: none;"><span class = "nav_1">ABOUT</span></a>
-            <a href="#" style="text-decoration: none;"><span class = "nav_2">TEST</span></a>
-            <a href="#" style="text-decoration: none;"><span class = "nav_3">LOGIN</span></a>
+            <a href="#" style="text-decoration: none;"><span class = "nav_2" onclick="javascript:nav_2()">TEST</span></a>
+            <a href="#" style="text-decoration: none;" onclick="javascript:nav_3()"><span class = "nav_3">LOGIN</span></a>
         </div>
     </nav>
     <!--ABOUT-->
     <div class = "about" style="padding-top: 850px;">
         <img src="img/back_black.jpg" alt="" class = "about_img">
         <span class = "about_t1">ABOUT<br></span>
-        <span class = "about_t2">사람의 피부톤과 가장 어울리는 색상을 찾는 색채학 이론</span>
+        <span class = "about_t2"><strong>Personal color ?</strong><br><br>개인이 가진 신체의 색과 어울리는 색<br>사용자에게 생기가 돌고 활기차 보이도록 연출하는 이미지 관리 따위에 효과적이다.</span>
         <img src="img/makeup.jpg" alt="" class="about_img_make">
         <img src="img/brush.jpg" alt="" class = "about_img_brush">
     </div>
@@ -48,8 +53,27 @@
         <span class = "test_t2" style="margin:0 auto; display: block;">나의 퍼스널 컬러를 진단해보세요 !<br></span>
         <span class = "test_t3" style="margin:0 auto; display: block;">* 아래 버튼을 클릭하여 진단을 해보세요 *</span>
         <a href="#">
-            <img src="img/test_btn.jpg" alt="" class = "text_btn">
+            <img src="img/test_btn.jpg" alt="" class = "text_btn" onclick="javascript:nav_3()">
         </a>
     </div>
+    <!--footer-->
+    <div class = "foot" style="margin-top: 400px;">
+        <img src="img/back_black.jpg" alt="" class = "foot_img">
+        <span class = "foot_txt">PersonalColor</span>
+    </div>
+
+    <!--AOS 라이브러리-->
+    <script>
+        AOS.init();
+    </script>
+    <!--로그인 구현 못했음 alert창으로 알리기-->
+    <script> 
+        function nav_3() { 
+            alert('오픈되지 않았습니다.'); 
+        } 
+        function nav_2() { 
+            alert('오픈되지 않았습니다.'); 
+        } 
+    </script>
 </body>
 </html>
