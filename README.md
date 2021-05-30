@@ -8,7 +8,8 @@
 https://areyh817.github.io/PersonalColor/
 
 ## 사용기술
-HTML, CSS
+HTML, CSS, JavaScript, php, mysql
 
-## 개발툴
-Visual Studio Code
+## MEMBER 
+* **[윤소희](https://github.com/sohee1214)** : Front-end Development
+* **[조혜라](https://github.com/areyh817)** : Plan, Full Stack Development
